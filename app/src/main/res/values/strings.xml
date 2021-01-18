@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">H5190050_SafakSezerFinal</string>
+
+    <string name="splashActivity_alertDialog_Title">İnternet Bağlantınız Yok</string>
+    <string name="splashActivity_alertDialog_Message">Uygulamayı kullanmak için internete bağlanın!</string>
+    <string name="splashActivity_alertDialog_PositiveButton">İnternet Ayarlarına Götür</string>
+    <string name="splashActivity_alertDialog_NegativeButton">Uygulamayı kapat</string>
+
+    <string name="splashActivity_OnTick_Tag">COUNTER</string>
+    <string name="splashActivity_OnTick_Msg">TICK</string>
+
+    <string name="listeActivity_alertDialog_Message">Çıkış Yapmak istiyor musunuz?</string>
+    <string name="listeActivity_alertDialog_PositiveButton">EVET</string>
+    <string name="listeActivity_alertDialog_NegativeButton">HAYIR</string>
+
+    <string name="listeActivity_progressDialog_message">Lütfen bekleyiniz...</string>
+    <string name="listeActivity_onSubscribe_log_tag">RETROFIT</string>
+    <string name="listeActivity_onSubscribe_log_msg">onSubscribe : </string>
+    <string name="listeActivity_onNext_log_tag">RETROFIT</string>
+    <string name="listeActivity_onNext_log_msg">onNext : </string>
+    <string name="listeActivity_onError_log_tag">RETROFIT</string>
+    <string name="listeActivity_onError_log_msg">onError : </string>
+    <string name="listeActivity_onComplete_log_tag">RETROFIT</string>
+    <string name="listeActivity_onComplete_log_msg">onComplete : </string>
+
+    <string name="listeActivity_Toast">TIKLANAN ADI: </string>
+    <string name="diziDetayActivity_Baslik_Text">BAŞLIK</string>
+    <string name="diziDetayActivity_Detay_Text">DETAY</string>
+
+    <string name="cardViewDiziler_DiziBaslik_Text">The Walking Dead</string>
+    <string name="cardViewDiziler_DiziTuru_Text">Korku</string>
+    <string name="cardViewDiziler_DiziSezon_Text">12 Sezon</string>
+    <string name="cardViewDiziler_YapimYili_Text">31 Ekim 2010</string>
+</resources>

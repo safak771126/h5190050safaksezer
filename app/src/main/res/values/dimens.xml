@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splashActivity_imageView_Width">250dp</dimen>
+    <dimen name="splashActivity_imageView_Height">205dp</dimen>
+    <dimen name="splashActivity_imageView_marginLeft">105dp</dimen>
+
+    <dimen name="listeActivity_imageView_Height">220dp</dimen>
+
+    <dimen name="diziDetayActivity_imageView_Height">250dp</dimen>
+    <dimen name="diziDetayActivity_textVievBaslik_Padding">10dp</dimen>
+    <dimen name="diziDetayActivity_textVievBaslik_TextSize">30sp</dimen>
+
+    <dimen name="diziDetayActivity_textVievDetay_Padding">10dp</dimen>
+    <dimen name="diziDetayActivity_textVievDetay_TextSize">20sp</dimen>
+
+    <dimen name="cardViewDiziler_cardView_Margin">16dp</dimen>
+
+    <dimen name="cardViewDiziler_imageView_Width">100dp</dimen>
+    <dimen name="cardViewDiziler_imageView_Height">100dp</dimen>
+    <dimen name="cardViewDiziler_imageView_marginStart">16dp</dimen>
+    <dimen name="cardViewDiziler_imageView_marginTop">5dp</dimen>
+    <dimen name="cardViewDiziler_imageView_marginBottom">16dp</dimen>
+
+    <dimen name="cardViewDiziler_textViewDiziAdi_marginStart">16dp</dimen>
+    <dimen name="cardViewDiziler_textViewDiziAdi_textSize">30sp</dimen>
+
+    <dimen name="cardViewDiziler_textViewDiziTuru_marginTop">16dp</dimen>
+    <dimen name="cardViewDiziler_textViewDiziTuru_textSize">20sp</dimen>
+
+    <dimen name="cardViewDiziler_textViewDiziSezon_marginTop">16dp</dimen>
+    <dimen name="cardViewDiziler_textViewDiziSezon_textSize">20sp</dimen>
+
+    <dimen name="cardViewDiziler_textViewYapimYili_marginTop">16dp</dimen>
+    <dimen name="cardViewDiziler_textViewYapimYili_textSize">20sp</dimen>
+</resources>

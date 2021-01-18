@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/cardViewDiziler_cardView_Margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgDiziLogo"
+                android:layout_width="@dimen/cardViewDiziler_imageView_Width"
+                android:layout_height="@dimen/cardViewDiziler_imageView_Height"
+                android:layout_marginStart="@dimen/cardViewDiziler_imageView_marginStart"
+                android:layout_marginTop="@dimen/cardViewDiziler_imageView_marginTop"
+                android:layout_marginBottom="@dimen/cardViewDiziler_imageView_marginBottom"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@tools:sample/avatars" />
+            <TextView
+                android:id="@+id/txtDiziAdi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/cardViewDiziler_textViewDiziAdi_marginStart"
+                android:textColor="@color/design_default_color_error"
+                android:textSize="@dimen/cardViewDiziler_textViewDiziAdi_textSize"
+                app:layout_constraintStart_toEndOf="@+id/imgDiziLogo"
+                app:layout_constraintTop_toTopOf="@+id/imgDiziLogo"
+                tools:text="@string/cardViewDiziler_DiziBaslik_Text" />
+            <TextView
+                android:id="@+id/txtDiziTuru"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/cardViewDiziler_textViewDiziTuru_marginTop"
+                android:textColor="@color/purple_700"
+                android:textSize="@dimen/cardViewDiziler_textViewDiziTuru_textSize"
+                app:layout_constraintStart_toStartOf="@+id/txtDiziAdi"
+                app:layout_constraintTop_toBottomOf="@+id/txtDiziAdi"
+                tools:text="@string/cardViewDiziler_DiziTuru_Text" />
+            <TextView
+                android:id="@+id/txtDiziSezon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/cardViewDiziler_textViewDiziSezon_marginTop"
+                android:textColor="@color/purple_700"
+                android:textSize="@dimen/cardViewDiziler_textViewDiziSezon_textSize"
+                app:layout_constraintStart_toStartOf="@+id/txtDiziTuru"
+                app:layout_constraintTop_toBottomOf="@+id/txtDiziTuru"
+                tools:text="@string/cardViewDiziler_DiziSezon_Text" />
+            <TextView
+                android:id="@+id/txtYapimYili"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/cardViewDiziler_textViewYapimYili_marginTop"
+                android:textColor="@color/purple_700"
+                android:textSize="@dimen/cardViewDiziler_textViewYapimYili_textSize"
+                app:layout_constraintStart_toStartOf="@+id/txtDiziSezon"
+                app:layout_constraintTop_toBottomOf="@+id/txtDiziSezon"
+                tools:text="@string/cardViewDiziler_YapimYili_Text" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

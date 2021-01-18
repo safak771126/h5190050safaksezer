@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DiziDetayActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgKapak"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/diziDetayActivity_imageView_Height"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/kapak_listeactivity" />
+            <TextView
+                android:id="@+id/txtBaslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/diziDetayActivity_textVievBaslik_Padding"
+                android:text="@string/diziDetayActivity_Baslik_Text"
+                android:textColor="@color/design_default_color_error"
+                android:textSize="@dimen/diziDetayActivity_textVievBaslik_TextSize"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtDetay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/diziDetayActivity_textVievDetay_Padding"
+                android:text="@string/diziDetayActivity_Detay_Text"
+                android:textSize="@dimen/diziDetayActivity_textVievDetay_TextSize" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
